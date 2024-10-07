@@ -13,6 +13,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 public class FetchDataFronJasonFile {
 
 	public static void main(String[] args) throws Throwable {
+		//pulling back
 		FileInputStream file=new FileInputStream("./src/test/resources/jason.jason");
 
 		ObjectMapper jsonData=new ObjectMapper();
