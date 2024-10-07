@@ -16,6 +16,7 @@ public class FetchDataFronJasonFile {
 		//pulling back
 		//push2
 		//pull2
+		//push3
 		FileInputStream file=new FileInputStream("./src/test/resources/jason.jason");
 
 		ObjectMapper jsonData=new ObjectMapper();
